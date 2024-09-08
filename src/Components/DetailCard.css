@@ -1,0 +1,50 @@
+/* src/DetailCard.css */
+.detail-card {
+    width: 30%;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .detail-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .large-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .detail-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button-box {
+    margin-top: 20px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  button .copy-icon {
+    margin-right: 10px;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  

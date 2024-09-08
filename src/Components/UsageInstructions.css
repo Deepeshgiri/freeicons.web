@@ -1,0 +1,43 @@
+.usage-instructions {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .usage-instructions h1 {
+    text-align: center;
+  }
+  
+  .usage-instructions section {
+    margin-bottom: 20px;
+  }
+  
+  .usage-instructions h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .usage-instructions p {
+    margin-bottom: 10px;
+  }
+  
+  .usage-instructions pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .usage-instructions code {
+    font-family: monospace;
+    color: #d63384;
+  }
+  
+  .usage-instructions a {
+    color: #007bff;
+  }
+  
+  .usage-instructions a:hover {
+    text-decoration: underline;
+  }
+  
