@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/freeicons.web/static/css/main.aa6fccb6.css",
-    "main.js": "/freeicons.web/static/js/main.9946e443.js",
+    "main.js": "/freeicons.web/static/js/main.2fb3d334.js",
     "index.html": "/freeicons.web/index.html",
     "main.aa6fccb6.css.map": "/freeicons.web/static/css/main.aa6fccb6.css.map",
-    "main.9946e443.js.map": "/freeicons.web/static/js/main.9946e443.js.map"
+    "main.2fb3d334.js.map": "/freeicons.web/static/js/main.2fb3d334.js.map"
   },
   "entrypoints": [
     "static/css/main.aa6fccb6.css",
-    "static/js/main.9946e443.js"
+    "static/js/main.2fb3d334.js"
   ]
 }
