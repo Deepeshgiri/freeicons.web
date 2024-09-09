@@ -30,7 +30,7 @@ const HomePage = () => {
       <section className="cta">
         <h2>Get Started Today</h2>
         <p>Check out our <a href="/usage">Usage Instructions</a> to learn how to integrate FreeIcons into your project.</p>
-        <a href="https://github.com/your-repo/freeicons" target="_blank" rel="noopener noreferrer" className="button-secondary">View on GitHub</a>
+        <a href="https://github.com/your-repo/freeicons" target="_blank" rel="noopener noreferrer" className="button-primary">View on GitHub</a>
       </section>
     </div>
   );

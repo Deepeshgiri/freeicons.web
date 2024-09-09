@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Layout/Header';
 import IconGallery from './Components/IconGallery';
@@ -8,17 +8,15 @@ import HomePage from './Components/HomePage';
 
 const App = () => {
   return (
-    <>
-   
-      <Header />
-      <div className="app container">
-        <Routes>
-        <Route path="/" element={<HomePage />} />
-          <Route path="/icons" element={<IconGallery />} />
-          <Route path="/usage" element={<UsageInstructions />} />
-        </Routes>
-      </div>
-      </>
+   <div className='App content'>
+   <Header />
+   <Routes>
+   <Route path="/" element={<HomePage />} />
+    <Route path="/freeicons.web" element={<HomePage />} />
+    <Route path="/icons" element={<IconGallery />} />
+    <Route path="/usage" element={<UsageInstructions />} />
+   </Routes>
+   </div>
   );
 };
 

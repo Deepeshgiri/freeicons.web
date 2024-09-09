@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <h1>FreeIcons</h1>
+        <Link to="/freeicons.web"> <h1>FreeIcons</h1></Link>
+       
       </div>
       <nav className="nav">
         <ul>
